@@ -67,12 +67,10 @@
 
   /*
     Botão principal "Agendar" — posicionado sobre a imagem de fundo.
-    A imagem de referência tem 1920x1080px e o botão deve ficar no ponto
-    (960, 820) desse design. Convertendo para porcentagem do container
-    (.hero, que ocupa 100% da largura/altura da tela):
-      left = 960 / 1920 = 50%
-      top  = 820 / 1080 ≈ 76%
-    Usar % mantém a posição proporcional em qualquer tamanho de tela.
+    Versão mobile: imagem "OutubroRosaMobile.png" (941x1672px).
+    Posição mantida em 50% / 76% (mesma proporção usada na versão
+    desktop) para ficar consistente com o layout. Ajuste os valores
+    de left/top abaixo se o botão não cair no lugar certo do design.
   */
   .botao-agendar {
     position: absolute;
